@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#010C28">
+  <meta name="robots" content="noindex">
+  <title>İkram Aldibs — BIS NFC Dijital Kartvizit</title>
+  <meta name="description" content="İkram Aldibs — Geliştirme ve Halkla İlişkiler Müdürü, BIS — Business Insight Solution">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/card.css">
+</head>
+<body class="flex justify-center bg-[#010C28]">
+  <div class="relative w-full max-w-[390px] min-h-screen bg-[#010C28] flex flex-col justify-between overflow-hidden shadow-2xl">
+
+    <!-- Hero Background with 3D navy panels image -->
+    <div class="absolute top-0 left-0 right-0 h-[380px] pointer-events-none overflow-hidden z-0">
+      <img src="assets/bis-panels.jpg" alt="" class="hero-panels w-full h-full object-cover opacity-60 mix-blend-screen">
+      <div class="absolute inset-0 bg-gradient-to-b from-[#010C28]/30 via-[#010C28]/70 to-[#010C28]"></div>
+      <div class="ambient-glow-a"></div>
+    </div>
+
+    <!-- Soft corner purple light arc -->
+    <div class="ambient-glow-b z-0"></div>
+
+    <!-- Main Container Content -->
+    <div class="relative z-10 px-5 pt-6 pb-8 flex flex-col gap-6">
+
+      <!-- Top Bar: Logo & Language Switch -->
+      <header class="flex items-center justify-between">
+        <div class="h-8 flex items-center">
+          <img src="assets/bis-logo.png" alt="BIS — Business Insight Solution" class="h-6 w-auto object-contain" width="480" height="99">
+        </div>
+        <!-- Language Switch Pills -->
+        <div class="flex items-center bg-[#071957]/80 border border-[#67B8E3]/20 rounded-full p-1 backdrop-blur-md" role="group" aria-label="Dil / اللغة / Language">
+          <button type="button" data-lang="tr" class="lang-pill px-2.5 py-1 text-xs rounded-full transition-colors" lang="tr">TR</button>
+          <button type="button" data-lang="ar" class="lang-pill px-2.5 py-1 text-xs rounded-full transition-colors" lang="ar" aria-label="العربية">ع</button>
+          <button type="button" data-lang="en" class="lang-pill px-2.5 py-1 text-xs rounded-full transition-colors" lang="en">EN</button>
+        </div>
+      </header>
+
+      <!-- Profile Section -->
+      <section class="flex flex-col items-center text-center pt-2">
+        <!-- Round profile photo -->
+        <div class="relative mb-4">
+          <div class="w-24 h-24 rounded-full p-[2px] bg-gradient-to-tr from-[#0F3FD4] via-[#67B8E3] to-[#1AAF68]">
+            <div class="w-full h-full rounded-full bg-[#071957] flex items-center justify-center overflow-hidden border-2 border-[#010C28]">
+              <img src="assets/ikram.jpg" alt="Ikram Aldibs" class="w-full h-full object-cover" width="400" height="400">
+            </div>
+          </div>
+          <!-- Verified badge -->
+          <div class="absolute bottom-0 end-1 w-6 h-6 rounded-full bg-[#0F3FD4] border-2 border-[#010C28] flex items-center justify-center text-white" aria-hidden="true">
+            <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+          </div>
+        </div>
+
+        <h1 class="text-2xl font-bold text-[#EFF0F0] tracking-tight mb-1" data-i18n="name">İkram Aldibs</h1>
+        <p class="text-sm font-medium text-[#67B8E3] mb-1.5" data-i18n="title">Geliştirme ve Halkla İlişkiler Müdürü</p>
+        <p class="text-xs font-normal text-[#EFF0F0]/60 tracking-wide" dir="ltr">BIS — Business Insight Solution</p>
+      </section>
+
+      <!-- Section 2: Main Action Button -->
+      <section>
+        <a href="ikram-aldibs.vcf" download="Ikram-Aldibs-BIS.vcf" class="btn-primary w-full min-h-[50px] h-[52px] rounded-[16px] text-[#EFF0F0] font-semibold text-base flex items-center justify-center gap-3 no-underline">
+          <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+            <circle cx="8.5" cy="7.5" r="4"></circle>
+            <line x1="20" y1="8" x2="20" y2="14"></line>
+            <line x1="23" y1="11" x2="17" y2="11"></line>
+          </svg>
+          <span data-i18n="save">Rehbere kaydet</span>
+        </a>
+      </section>
+
+      <!-- Section 3: Three Equal Tiles in a Row -->
+      <section class="grid grid-cols-3 gap-3">
+        <a href="https://wa.me/905051967665" target="_blank" rel="noopener" class="glass-tile flex flex-col items-center justify-center min-h-[82px] py-3 px-2 text-center group">
+          <div class="w-10 h-10 rounded-full bg-[#071957]/80 flex items-center justify-center mb-1.5 text-[#67B8E3] group-hover:text-white transition-colors">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+          </div>
+          <span class="text-xs font-medium text-[#EFF0F0]" data-i18n="whatsapp">WhatsApp</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/ikram-aldibs-5392a9383" target="_blank" rel="noopener" class="glass-tile flex flex-col items-center justify-center min-h-[82px] py-3 px-2 text-center group">
+          <div class="w-10 h-10 rounded-full bg-[#071957]/80 flex items-center justify-center mb-1.5 text-[#67B8E3] group-hover:text-white transition-colors">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </div>
+          <span class="text-xs font-medium text-[#EFF0F0]" data-i18n="linkedin">LinkedIn</span>
+        </a>
+
+        <a href="mailto:eshipment@bissolution.org" class="glass-tile flex flex-col items-center justify-center min-h-[82px] py-3 px-2 text-center group">
+          <div class="w-10 h-10 rounded-full bg-[#071957]/80 flex items-center justify-center mb-1.5 text-[#67B8E3] group-hover:text-white transition-colors">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+          </div>
+          <span class="text-xs font-medium text-[#EFF0F0]" data-i18n="email">E-posta</span>
+        </a>
+      </section>
+
+      <!-- Section 4: Video Card (shown only when a video file exists for the language) -->
+      <section id="video-section" class="flex flex-col gap-2.5" hidden>
+        <h2 class="text-sm font-semibold text-[#EFF0F0] px-1" data-i18n="videoTitle">e-shipment’i kısaca tanıyın</h2>
+        <div class="glass-card p-3 overflow-hidden">
+          <div id="video-frame" class="relative w-full aspect-video rounded-xl overflow-hidden bg-[#071957]/90 border border-[#67B8E3]/20 flex items-center justify-center group">
+            <img src="assets/bis-panels.jpg" alt="" class="video-poster w-full h-full object-cover opacity-40 group-hover:scale-105 transition-transform duration-300">
+            <div class="video-poster absolute inset-0 bg-gradient-to-t from-[#010C28]/80 via-transparent to-transparent"></div>
+            <button type="button" id="video-play" class="video-poster absolute w-13 h-13 min-w-[50px] min-h-[50px] rounded-full bg-[#0F3FD4]/90 border border-[#67B8E3]/40 flex items-center justify-center shadow-lg group-hover:bg-[#0F3FD4] transition-colors" data-i18n-aria="play" aria-label="Videoyu oynat">
+              <svg class="w-5 h-5 text-white fill-white ms-0.5" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+            </button>
+            <div class="video-poster absolute bottom-2.5 start-3">
+              <img src="assets/eshipment-logo.png" alt="e-shipment" class="h-4 w-auto object-contain opacity-70">
+            </div>
+            <video id="video" class="absolute inset-0 w-full h-full object-contain bg-black" playsinline controls preload="none" hidden></video>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 5: Contact Form Card -->
+      <section class="glass-card p-5">
+        <div class="mb-4">
+          <h2 class="text-lg font-bold text-[#EFF0F0] mb-1" data-i18n="formTitle">Tanışalım</h2>
+          <p class="text-xs text-[#67B8E3]/90 leading-relaxed" data-i18n="formSub">Bilgilerinizi bırakın, en kısa sürede size dönelim.</p>
+        </div>
+
+        <form id="lead-form" class="flex flex-col gap-3.5" novalidate>
+          <div>
+            <label for="f-name" class="block text-xs font-medium text-[#EFF0F0]/80 mb-1.5" data-i18n="fName">Ad Soyad</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required data-i18n-ph="phName" placeholder="Adınız ve Soyadınız" class="field w-full h-11 min-h-[44px] px-3.5 rounded-xl bg-[#010C28]/70 border border-[#67B8E3]/25 text-sm text-[#EFF0F0] placeholder-[#EFF0F0]/30 focus:outline-none focus:border-[#67B8E3] focus:ring-1 focus:ring-[#67B8E3] transition-all">
+          </div>
+          <div>
+            <label for="f-company" class="block text-xs font-medium text-[#EFF0F0]/80 mb-1.5" data-i18n="fCompany">Firma</label>
+            <input id="f-company" name="company" type="text" autocomplete="organization" data-i18n-ph="phCompany" placeholder="Firma Adı" class="field w-full h-11 min-h-[44px] px-3.5 rounded-xl bg-[#010C28]/70 border border-[#67B8E3]/25 text-sm text-[#EFF0F0] placeholder-[#EFF0F0]/30 focus:outline-none focus:border-[#67B8E3] focus:ring-1 focus:ring-[#67B8E3] transition-all">
+          </div>
+          <div>
+            <label for="f-contact" class="block text-xs font-medium text-[#EFF0F0]/80 mb-1.5" data-i18n="fContact">Telefon veya e-posta</label>
+            <input id="f-contact" name="contact" type="text" autocomplete="tel" required dir="auto" data-i18n-ph="phContact" placeholder="+90 ... veya ad@firma.com" class="field w-full h-11 min-h-[44px] px-3.5 rounded-xl bg-[#010C28]/70 border border-[#67B8E3]/25 text-sm text-[#EFF0F0] placeholder-[#EFF0F0]/30 focus:outline-none focus:border-[#67B8E3] focus:ring-1 focus:ring-[#67B8E3] transition-all">
+          </div>
+          <p id="form-error" class="text-xs text-[#FFB4A0]" role="alert" hidden data-i18n="error">Lütfen adınızı ve telefon veya e-posta bilginizi yazın.</p>
+
+          <button type="submit" id="f-submit" class="btn-primary w-full min-h-[48px] h-12 rounded-xl text-[#EFF0F0] font-semibold text-sm mt-1 flex items-center justify-center" data-i18n="submit">
+            Gönder
+          </button>
+        </form>
+
+        <div id="form-thanks" class="rounded-xl bg-[#0F3FD4]/20 border border-[#67B8E3]/30 p-4 text-sm font-medium text-[#EFF0F0] leading-relaxed" role="status" hidden data-i18n="thanks">Teşekkürler! En kısa sürede size ulaşacağız.</div>
+      </section>
+
+      <!-- Section 6: Footer with the glowing ribbon -->
+      <footer class="relative pt-6 pb-4 flex flex-col items-center text-center overflow-hidden">
+        <div class="w-full h-12 relative flex items-center justify-center mb-4" aria-hidden="true">
+          <svg class="w-full h-full overflow-visible glow-ribbon-svg" viewBox="0 0 350 40" fill="none" preserveAspectRatio="none">
+            <defs>
+              <linearGradient id="ribbonGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#1AAF68" stop-opacity="0.9" />
+                <stop offset="45%" stop-color="#00D2C4" stop-opacity="0.9" />
+                <stop offset="70%" stop-color="#FFD000" stop-opacity="0.95" />
+                <stop offset="100%" stop-color="#FF4201" stop-opacity="0.9" />
+              </linearGradient>
+              <linearGradient id="ribbonGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#1AAF68" stop-opacity="0.4" />
+                <stop offset="50%" stop-color="#FFD000" stop-opacity="0.6" />
+                <stop offset="100%" stop-color="#FF4201" stop-opacity="0.5" />
+              </linearGradient>
+            </defs>
+            <path d="M 10 20 C 90 28, 140 10, 210 22 C 270 32, 310 18, 340 20" stroke="url(#ribbonGrad1)" stroke-width="2.5" stroke-linecap="round" />
+            <path d="M 10 24 C 90 32, 140 14, 210 26 C 270 36, 310 22, 340 24" stroke="url(#ribbonGrad1)" stroke-width="2" stroke-linecap="round" />
+            <path d="M 10 16 C 90 24, 140 6, 210 18 C 270 28, 310 14, 340 16" stroke="url(#ribbonGrad2)" stroke-width="1.5" stroke-linecap="round" />
+            <path d="M 10 28 C 90 36, 140 18, 210 30 C 270 40, 310 26, 340 28" stroke="url(#ribbonGrad2)" stroke-width="1.2" stroke-linecap="round" />
+          </svg>
+        </div>
+
+        <p class="text-xs font-semibold uppercase tracking-wider text-[#67B8E3]/80 mb-3.5" data-i18n="products">BIS ürünleri</p>
+
+        <div class="flex items-center justify-center gap-6 mb-4 w-full px-2">
+          <div class="flex-1 flex justify-center items-center py-2 px-3 rounded-xl bg-[#071957]/40 border border-[#1AAF68]/30">
+            <img src="assets/eshipment-logo.png" alt="e-shipment" class="h-8 w-auto max-w-[130px] object-contain">
+          </div>
+          <div class="flex-1 flex justify-center items-center py-2 px-3 rounded-xl bg-[#071957]/40 border border-[#FF4201]/30">
+            <img src="assets/btradelink-logo.png" alt="B Trade-link" class="h-6 w-auto max-w-[130px] object-contain">
+          </div>
+        </div>
+
+        <a href="https://eshipment.org" target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-[#67B8E3] hover:underline mb-2">eshipment.org</a>
+
+        <p class="text-[11px] text-[#EFF0F0]/50 tracking-tight" dir="ltr">© 2026 BIS — Business Insight Solution · İstanbul</p>
+      </footer>
+
+    </div>
+  </div>
+
+  <script>
+    window.CARD = {
+      source: 'nfc-ikram',
+      email: 'eshipment@bissolution.org',
+      name:  { tr: 'İkram Aldibs', ar: 'إكرام الدبس', en: 'Ikram Aldibs' },
+      title: { tr: 'Geliştirme ve Halkla İlişkiler Müdürü', ar: 'مديرة التطوير والعلاقات العامة', en: 'Development & Public Relations Manager' }
+    };
+  </script>
+  <script src="assets/card.js"></script>
+</body>
+</html>

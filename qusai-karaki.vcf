@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Karaki;Qusai;;;
+FN:Qusai Karaki
+ORG:BIS — Business Insight Solution
+TITLE:Yazılım Geliştirici
+TEL;TYPE=WORK,VOICE:+905051967665
+EMAIL;TYPE=INTERNET,WORK:it@bissolution.org
+URL:https://eshipment.org
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/company/bis-business-insight-solution/
+ADR;TYPE=WORK:;;Kayabaşı, Adnan Menderes Bulvarı No:7D;Başakşehir;İstanbul;34093;Türkiye
+END:VCARD
